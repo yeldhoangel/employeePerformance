@@ -25,7 +25,7 @@ how to test
   	> npm install
 	> npm run dev
 	> npm install gulp-sass --save-dev
-  > gulp sass
+  	> gulp sass
   
 ####Database setup:
 
