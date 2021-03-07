@@ -9,14 +9,15 @@ Database: MongoDB
 how to test
 ##Clone this repo or download the .zip file, install dependencies, then npm run dev for server and npm start for client:
 ####"server"
-  > cd erver
-	> npm install
-	> npm install -g nodemon
+
+  	> cd erver
+  	> npm install
+  	> npm install -g nodemon
 	> npm run dev
-	> 
 ####"client" (2nd terminal)
-  > cd performance_client
-	> npm install
+
+  	> cd performance_client
+  	> npm install
 	> npm run dev
 	> npm install gulp-sass --save-dev
   > gulp sass
