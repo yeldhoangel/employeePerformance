@@ -1,0 +1,70 @@
+<html>
+    <header>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>Employee Performance</title>
+        <meta http-equiv="content-style-type" content="text/css" />
+        <meta http-equiv="content-script-type" content="text/javascript" />
+        <meta http-equiv="Pragma" content="no-cache">
+        <meta http-equiv="Cache-Control" content="no-cache">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+        <link rel="stylesheet" href="css/employee.min.css"/>
+        <script type="text/javascript" src="js/jquery-1.12.0.min.js"></script>
+        <script type="text/javascript" src="js/employee.js"></script>
+    </header>
+    <body>
+        <div class="wrapper">
+            <div class="form-wrapper">
+                <div class="form-design form-design-register">
+                    <div class="content">
+                        <h2>Sign up</h2>              
+                        <form id="register-form" name="register-form">
+                            <span class="msg_error"></span>
+                            <div class="field-wrapper">
+                                <input type="text" name="username" id="username" placeholder="username">
+                                <label>username</label>
+                            </div>
+                            <div class="field-wrapper">
+                                <input type="password" name="password" id="password" placeholder="password" autocomplete="new-password">
+                                <label>password</label>
+                            </div>
+                            <div class="field-wrapper">
+                                <input type="text" name="firstname" id="firstname" placeholder="firstname">
+                                <label>firstname</label>
+                            </div>
+                            <div class="field-wrapper">
+                                <input type="text" name="lastname" id="lastname" placeholder="lastname">
+                                <label>lastname</label>
+                            </div>
+                            <div class="field-wrapper">
+                                <input type="text" name="email" id="email" placeholder="email">
+                                <label>email</label>
+                            </div>
+                            <div class="field-wrapper">
+                                <input type="text" name="jobtitle" id="jobtitle" placeholder="job title">
+                                <label>job title</label>
+                            </div>
+                            <div class="field-wrapper">
+                                <input type="text" name="department" id="department" placeholder="dept">
+                                <label>department</label>
+                            </div>
+                            <div class="field-wrapper">
+                                <input type="submit" value="Register">
+                            </div>
+                            <span class="singin" onclick="showLogin()">Already a user?  Sign in</span>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script type="text/javascript">
+        function showLogin() {
+            let host = (window.location.protocol)+"//"+(window.location.hostname);
+            if(window.location.port !== "" && window.location.port !== null) {
+                host += ":"+window.location.port;
+            }
+            host += "/employeePerformance/client/login.html";
+            window.location.href = host;
+        }
+    </script>
+</html>
