@@ -11,7 +11,7 @@ Database: MongoDB
 
 how to test
 
-##Clone this repo or download the .zip file, install dependencies, then npm run dev for server and npm start for client:
+##Clone this repo or download the .zip file, install dependencies, then npm run dev for server and  client:
 
 ####"server"
 
