@@ -31,7 +31,7 @@ how to test
 
 	Download MongoDB and run MongoDB server such as localhost:27017
 	
-	Inside employee-performance-server/server/index.js, change mongoose.connect('mongodb://dbuser:dbpassword@hostname:port/dbname'); with your setting
+	Inside server/server/index.js, change mongoose.connect('mongodb://dbuser:dbpassword@hostname:port/dbname'); with your setting
 
 
 Now, we can't create admin through the browser as expected.
