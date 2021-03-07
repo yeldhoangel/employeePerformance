@@ -2,12 +2,17 @@
 Design a web application that allows employees to submit feedback toward each other's performance review
 
 Technologies used: 
+
 Frontend: typescript, webpack, babel, gulp
+
 Backend: Node.js
+
 Database: MongoDB
 
 how to test
+
 ##Clone this repo or download the .zip file, install dependencies, then npm run dev for server and npm start for client:
+
 ####"server"
 
   	> cd server
@@ -23,6 +28,7 @@ how to test
   > gulp sass
   
 ####Database setup:
+
 	Download MongoDB and run MongoDB server such as localhost:27017
 	Inside employee-performance-server/server/index.js, change mongoose.connect('mongodb://dbuser:dbpassword@hostname:port/dbname'); with your setting
 
