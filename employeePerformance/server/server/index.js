@@ -10,7 +10,7 @@ const cors = require('cors');
 const cookieParser = require('cookie-parser');
 
 // DB Setup
-mongoose.connect('mongodb+srv://root:root@cluster0.jqcjm.mongodb.net/employeePerformance?retryWrites=true&w=majority');
+mongoose.connect('test');
 
 // App Setup
 app.use(morgan('combined'));
